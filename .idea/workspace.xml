@@ -4,42 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="085808ff-875b-4b60-ac48-5410ebdbbb58" name="Changes" comment="Subiendo a la rama">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Carrito.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Carrito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Logistica.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Logistica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Pedido.java" afterDir="false" />
+    <list default="true" id="b99acec8-16ef-4d76-b5e3-0004232261df" name="Changes" comment="clone1">
+      <changelist_data name="™️》KRISTO《™" email="cr.valdebenitop@duocuc.cl" automatic="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager">
-    <option name="groupingKeys">
-      <option value="module" />
-      <option value="repository" />
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Krist0-afk&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Krist0-afk"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Krist0-afk/Perfulandia_Parcial_2.git&quot;,
-    &quot;accountId&quot;: &quot;d556b034-9a60-4495-991f-76832b031ca9&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Krist0-afk/Perfulandia_Parcial_Clone_2.git",
+    "accountId": "d556b034-9a60-4495-991f-76832b031ca9"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2xp8mmHjBQyR7LVZTnzm7ecQLug" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2z3KtTQrsjQPSxeL0X5svxTPFEl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,19 +38,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.CarritoserviceApplication.executor": "Run",
-    "Spring Boot.LogisticaserviceApplication.executor": "Run",
-    "Spring Boot.PedidosApplication.executor": "Run",
-    "Spring Boot.ProductserviceApplication.executor": "Run",
-    "Spring Boot.UsuarioserviceApplication.executor": "Run",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Kristo/Desktop/Perfulandia_parcial_2",
+    "last_opened_file_path": "C:/Users/Kristo/Documents/Universidad/DESARROLLO_FULLSTACK_I/Perfulandia_parcial_2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,7 +61,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UsuarioserviceApplication">
+  <component name="RunManager" selected="Spring Boot.PedidosApplication">
     <configuration name="CarritoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="carritoservice" />
@@ -131,23 +113,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="085808ff-875b-4b60-ac48-5410ebdbbb58" name="Changes" comment="" />
-      <created>1748623815785</created>
+      <changelist id="b99acec8-16ef-4d76-b5e3-0004232261df" name="Changes" comment="" />
+      <created>1750954530851</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1748623815785</updated>
-      <workItem from="1748623817048" duration="63000" />
-      <workItem from="1748623895769" duration="771000" />
-      <workItem from="1748624682621" duration="3000" />
-      <workItem from="1748624754925" duration="2252000" />
+      <updated>1750954530851</updated>
+      <workItem from="1750954532017" duration="308000" />
     </task>
-    <task id="LOCAL-00001" summary="Subiendo a la rama">
+    <task id="LOCAL-00001" summary="clone1">
       <option name="closed" value="true" />
-      <created>1748625163504</created>
+      <created>1750954733184</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1748625163505</updated>
+      <updated>1750954733184</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -156,7 +135,8 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Subiendo a la rama" />
-    <option name="LAST_COMMIT_MESSAGE" value="Subiendo a la rama" />
+    <MESSAGE value="clone2" />
+    <MESSAGE value="clone1" />
+    <option name="LAST_COMMIT_MESSAGE" value="clone1" />
   </component>
 </project>
