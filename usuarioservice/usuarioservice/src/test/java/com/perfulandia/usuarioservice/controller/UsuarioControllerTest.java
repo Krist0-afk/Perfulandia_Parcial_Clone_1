@@ -35,7 +35,7 @@ public class UsuarioControllerTest {
 
     @Test
     @DisplayName("Testing Controller 1 - Mostrar Usuarios")
-    void testGetAll() throws Exception{
+    void testgetAll() throws Exception{
         when(service.listar()).thenReturn(List.of(new Usuario(1,"Pepe","pepe@duocuc.cl","estudiante")));
         //2.-Ejecutar una peticion get falsa
         mockMvc.perform(get("/api/usuarios/mostrar/usuarios"))
@@ -57,5 +57,5 @@ public class UsuarioControllerTest {
                 .andExpect(jsonPath("$[0].nombre").value("Pepe"));
     }
 
-    }
 }
+

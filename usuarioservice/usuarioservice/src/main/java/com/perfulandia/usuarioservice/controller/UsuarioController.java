@@ -26,6 +26,15 @@ public class UsuarioController {
             @ApiResponse(responseCode = "200",description = "Usuario creado de forma exitosa"),
             @ApiResponse(responseCode = "400",description = "Fallo en la consulta")
     })
+    @GetMapping
+    public List<Usuario> getAll(){return service.listar();
+    }
+
+    @Operation(summary = "Crear un nuevo Videojuego", description = "Agrega un nuevo videojuego a la base de datos ")
+    @ApiResponses({
+            @ApiResponse(responseCode = "200",description = "juego creado de forma exitosa"),
+            @ApiResponse(responseCode = "400",description = "Fallo en la consulta")
+    })
 
 
     @GetMapping("/listar/usuario")
