@@ -1,13 +1,16 @@
 package com.perfulandia.usuarioservice.controller;
-
 import com.perfulandia.usuarioservice.model.Usuario;
-import com.perfulandia.usuarioservice.repository.UsuarioRepository;
 import com.perfulandia.usuarioservice.service.UsuarioService;
-import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.tags.Tag;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
+@Tag(name="Usuario",description = "Operaciones de un CRU para la API  de usuarios")
 @RestController
 @RequestMapping("/api/usuarios")
 public class UsuarioController {
@@ -17,6 +20,13 @@ public class UsuarioController {
     public UsuarioController(UsuarioService service){
         this.service=service;
     }
+
+    @Operation(summary = "Crear un nuevo usuario", description = "Agrega un nuevo usuario a la base de datos ")
+    @ApiResponses({
+            @ApiResponse(responseCode = "200",description = "Usuario creado de forma exitosa"),
+            @ApiResponse(responseCode = "400",description = "Fallo en la consulta")
+    })
+
 
     @GetMapping("/listar/usuario")
     public List<Usuario> listar(){

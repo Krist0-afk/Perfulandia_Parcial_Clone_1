@@ -29,11 +29,33 @@ public class UsuarioControllerTest {
     private UsuarioService service;
 
     private final ObjectMapper mapper=new ObjectMapper();
+    @Autowired
+    private MockMvc mockMvc;
 
 
     @Test
     @DisplayName("Testing Controller 1 - Mostrar Usuarios")
     void testGetAll() throws Exception{
+        when(service.listar()).thenReturn(List.of(new Usuario(1,"Pepe","pepe@duocuc.cl","estudiante")));
+        //2.-Ejecutar una peticion get falsa
+        mockMvc.perform(get("/api/usuarios/mostrar/usuarios"))
+                //lo que esperamos en esa peticion
+                .andExpect(status().isOk())//codigo 200
+                //4.- verificacion que el primer elemento JSON sea el usuario Pepe
+                .andExpect(jsonPath("$[0].nombre").value("Pepe"));
+    }
+
+    @Test
+    @DisplayName("Testing Controller 1 - Guardar Usuarios")
+    void testGetAll() throws Exception{
+        when(service.listar()).thenReturn(List.of(new Usuario(1,"Pepe","pepe@duocuc.cl","estudiante")));
+        //2.-Ejecutar una peticion get falsa
+        mockMvc.perform(get("/api/usuarios/mostrar/usuarios"))
+                //lo que esperamos en esa peticion
+                .andExpect(status().isOk())//codigo 200
+                //4.- verificacion que el primer elemento JSON sea el usuario Pepe
+                .andExpect(jsonPath("$[0].nombre").value("Pepe"));
+    }
 
     }
 }
