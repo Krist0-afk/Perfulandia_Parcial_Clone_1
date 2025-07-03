@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e76a1cf0-1956-4da0-ad5e-3762d766e3e8" name="Changes" comment="avances">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/UsuarioserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/UsuarioserviceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/service/UsuarioServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/service/UsuarioServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Krist0-afk/Perfulandia_Parcial_Clone_1.git&quot;,
-    &quot;accountId&quot;: &quot;a4218a4b-3533-4485-9060-ba5bfe4bd79d&quot;
+    &quot;accountId&quot;: &quot;4a2970c9-e0fa-4b92-b57f-5843222f2dbe&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -51,14 +53,55 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.UsuarioserviceApplicationTests.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.UsuarioserviceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.CarritoserviceApplication">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.perfulandia.usuarioservice" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UsuarioserviceApplication">
+    <configuration name="UsuarioserviceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="usuarioservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.usuarioservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.usuarioservice" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.usuarioservice.UsuarioserviceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarritoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="carritoservice" />
@@ -99,12 +142,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UsuarioserviceApplicationTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -116,6 +164,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750954968364</updated>
+      <workItem from="1751495364995" duration="673000" />
+      <workItem from="1751496101020" duration="9398000" />
     </task>
     <servers />
   </component>
