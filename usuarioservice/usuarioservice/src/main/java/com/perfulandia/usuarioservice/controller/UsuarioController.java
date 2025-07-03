@@ -10,7 +10,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@Tag(name="Usuario",description = "Operaciones de un CRU para la API  de usuarios")
+@Tag(name="Usuario",description = "Operaciones de un CRU para la API de usuarios")
 @RestController
 @RequestMapping("/api/usuarios")
 public class UsuarioController {
