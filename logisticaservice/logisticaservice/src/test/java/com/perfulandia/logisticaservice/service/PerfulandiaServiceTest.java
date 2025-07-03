@@ -1,8 +1,9 @@
-//URL: http://localhost:8085/swagger-ui/index.html#/
-package com.perfulandia.carritoservice.service;
+//URL: http://localhost:8083/swagger-ui/index.html#/
+package com.perfulandia.logisticaservice.service;
 
-import com.perfulandia.carritoservice.model.Carrito;
-import com.perfulandia.carritoservice.repository.CarritoRepository;
+
+import com.perfulandia.logisticaservice.model.Repartidor;
+import com.perfulandia.logisticaservice.repository.RepartidorRepository;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -19,10 +20,10 @@ public class PerfulandiaServiceTest {
 
     //Creando una instancia dem mocks=Simular para poder inyectar donde sea necesario
     @InjectMocks
-    private CarritoService service;
+    private RepartidorService service;
     //Creando un mock del repositorio //objeto simulado
     @Mock
-    private CarritoRepository repo;
+    private RepartidorRepository repo;
 
     //Constructor para inicializar test antes de cada prueba
     public PerfulandiaServiceTest() {
@@ -37,32 +38,29 @@ public class PerfulandiaServiceTest {
     @DisplayName("Testing 1 - FindAll Service")
     void testFindAll() {
         //Simular la creacion de un objeto de perfume
-        when(repo.findAll()).thenReturn(List.of(new Carrito(1,"POLO",90000,"EDP")));
-        List<Carrito> resultado = service.listar();
+        when(repo.findAll()).thenReturn(List.of(new Repartidor(1, "Luis", "Uribe", "12.456.987-8", "Mercedez", 1200, "HG-54-87")));
+        List<Repartidor> resultado = service.listar();
         //verificacion
         assertEquals(resultado.size(), 1);
     }
 
     @Test
     @DisplayName("Testing 2 - Save Service")
-    void testSave(){
+    void testSave() {
 
-        Carrito c = new Carrito(1,"AXE",12000,"EDT");
+        Repartidor r = new Repartidor(1, "Luis", "Uribe", "12.456.987-8", "Mercedez", 1200, "HG-54-87");
         //Simular el Guardado de un videojuego
-        when(repo.save(c)).thenReturn(c);
+        when(repo.save(r)).thenReturn(r);
         //Llamar al metodo de  servicio que sera probado
-        Carrito resultado = service.guardar(c);
+        Repartidor resultado = service.guardar(r);
         //Verifica que el objeto resultado no sea null.
         assertNotNull(resultado);
         //Comprueba que el nombre del objeto resultado sea exactamente "Axe".
-        assertEquals("AXE", resultado.getNombre());
+        assertEquals("Luis", resultado.getNombre());
         //Verifica que el precio del objeto resultado sea exactamente 12000.
-        assertEquals(12000, resultado.getPrecio());
+        assertEquals(1200, resultado.getCapacidad());
     }
 
 
-
-
-
-
 }
+
