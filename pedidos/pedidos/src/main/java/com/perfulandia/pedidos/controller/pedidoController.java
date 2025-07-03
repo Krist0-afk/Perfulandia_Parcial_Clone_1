@@ -2,37 +2,50 @@ package com.perfulandia.pedidos.controller;
 
 import com.perfulandia.pedidos.model.pedidoModel;
 import com.perfulandia.pedidos.service.pedidoService;
+import com.perfulandia.pedidos.Assembler.PedidoAssembler;
+import org.springframework.hateoas.CollectionModel;
+import org.springframework.hateoas.EntityModel;
 import org.springframework.web.bind.annotation.*;
 
-
 import java.util.List;
-@RestController // Esta clase va a manejar solicitudes web y va a responder con datos
-@RequestMapping("/api/pfl/") // Sirve para definir la ruta base (URL raíz) de todos los métodos de esa clase.
+import java.util.stream.Collectors;
 
-public class pedidoController { //.
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
+
+@RestController
+@RequestMapping("/api/pfl/")
+public class pedidoController {
 
     private final pedidoService pedidoService;
+    private final PedidoAssembler assembler;
 
-    public pedidoController(pedidoService pedidoService) {
+    public pedidoController(pedidoService pedidoService, PedidoAssembler assembler) {
         this.pedidoService = pedidoService;
+        this.assembler = assembler;
     }
 
-    //listar
-    @GetMapping("/lista/pedidos") // se usa para manejar solicitudes
-    public List<pedidoModel> listar(){
-        return pedidoService.listar();
+    @GetMapping("/lista/pedidos")
+    public CollectionModel<EntityModel<pedidoModel>> listar() {
+        List<EntityModel<pedidoModel>> pedidos = pedidoService.listar().stream()
+                .map(assembler::toModel)
+                .collect(Collectors.toList());
+
+        return CollectionModel.of(pedidos,
+                linkTo(methodOn(pedidoController.class).listar()).withSelfRel());
     }
-    @PostMapping("/guardar/pedido") // Se usa típicamente para enviar datos al servidor,
-    public pedidoModel guardar(@RequestBody pedidoModel pedidoModel){
-        return pedidoService.guardar(pedidoModel);
+
+    @PostMapping("/guardar/pedido")
+    public EntityModel<pedidoModel> guardar(@RequestBody pedidoModel pedido) {
+        return assembler.toModel(pedidoService.guardar(pedido));
     }
+
     @GetMapping("/buscar/pedido/{id}")
-    public pedidoModel buscar(@PathVariable Long id){
-        return pedidoService.buscar(id);
+    public EntityModel<pedidoModel> buscar(@PathVariable Long id) {
+        return assembler.toModel(pedidoService.buscar(id));
     }
-    @DeleteMapping("/eliminar/pedido{id}") // Se usa para eliminar datos desde el servidor.
-    public void eliminar(@PathVariable Long id){
+
+    @DeleteMapping("/eliminar/pedido/{id}")
+    public void eliminar(@PathVariable Long id) {
         pedidoService.eliminar(id);
     }
-
 }
