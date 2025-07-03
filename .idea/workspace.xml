@@ -4,99 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="b99acec8-16ef-4d76-b5e3-0004232261df" name="Changes" comment="Carrito ya esta listo solo falta la url">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-    <list default="true" id="e76a1cf0-1956-4da0-ad5e-3762d766e3e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/service/UsuarioServiceTest.java" afterDir="false" />
+    <list default="true" id="2a5fc8e4-d2c8-44e1-aa0c-22d9ea01ca26" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/UsuarioserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/UsuarioserviceApplicationTests.java" afterDir="false" />
->>>>>>> c802f375753df5b3668ccede258c0192d72d2bb8
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/com/perfulandia/pedidos/controller/pedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/com/perfulandia/pedidos/controller/pedidoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/com/perfulandia/pedidos/model/pedidoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/com/perfulandia/pedidos/model/pedidoModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="™️》KRISTO《™ &lt;cr.valdebenitop@duocuc.cl&gt;" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Rodrigoruiz12&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Rodrigoruiz12"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Krist0-afk/Perfulandia_Parcial_Clone_1.git&quot;,
-<<<<<<< HEAD
-    &quot;accountId&quot;: &quot;d556b034-9a60-4495-991f-76832b031ca9&quot;
-=======
-    &quot;accountId&quot;: &quot;a4218a4b-3533-4485-9060-ba5bfe4bd79d&quot;
->>>>>>> c802f375753df5b3668ccede258c0192d72d2bb8
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Krist0-afk/Perfulandia_Parcial_Clone_1.git",
+    "accountId": "4a2970c9-e0fa-4b92-b57f-5843222f2dbe"
   }
-}</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-<<<<<<< HEAD
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2z3KtTQrsjQPSxeL0X5svxTPFEl" />
-=======
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2z3LmM4j8iBrJqVL0mfrYlaIpqH" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
->>>>>>> c802f375753df5b3668ccede258c0192d72d2bb8
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2zNIPUl8IZux5ftDtn7PAokUhSw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-<<<<<<< HEAD
-    &quot;JUnit.PerfulandiaControllerTest.testGetAll.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerfulandiaControllerTest.testPost.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerfulandiaServiceTest.testFindAll.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CarritoserviceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kristo/Documents/Universidad/DESARROLLO_FULLSTACK_I/Perfulandia_parcial_2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.PedidosApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -107,64 +68,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CarritoserviceApplication">
-    <configuration name="PerfulandiaControllerTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.PerfulandiaControllerTest" />
-      <option name="METHOD_NAME" value="testGetAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PerfulandiaControllerTest.testPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.PerfulandiaControllerTest" />
-      <option name="METHOD_NAME" value="testPost" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PerfulandiaServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.PerfulandiaServiceTest" />
-      <option name="METHOD_NAME" value="testFindAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-=======
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
-  }
-}</component>
-  <component name="RunManager">
->>>>>>> c802f375753df5b3668ccede258c0192d72d2bb8
+  <component name="RunManager" selected="Spring Boot.PedidosApplication">
     <configuration name="CarritoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="carritoservice" />
@@ -183,7 +87,7 @@
     </configuration>
     <configuration name="PedidosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="pedidos" />
+      <module name="gamestore" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.pedidos.PedidosApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,7 +95,7 @@
     </configuration>
     <configuration name="ProductserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="productservice" />
+      <module name="gamestore (1)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.productservice.ProductserviceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,196 +103,33 @@
     </configuration>
     <configuration name="UsuarioserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="usuarioservice" />
+      <module name="gamestore (2)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.usuarioservice.UsuarioserviceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.PerfulandiaServiceTest.testFindAll" />
-        <item itemvalue="JUnit.PerfulandiaControllerTest.testPost" />
-        <item itemvalue="JUnit.PerfulandiaControllerTest.testGetAll" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
-      <changelist id="b99acec8-16ef-4d76-b5e3-0004232261df" name="Changes" comment="" />
-      <created>1750954530851</created>
+      <changelist id="2a5fc8e4-d2c8-44e1-aa0c-22d9ea01ca26" name="Changes" comment="" />
+      <created>1751565081611</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1750954530851</updated>
-      <workItem from="1750954532017" duration="3212000" />
-      <workItem from="1751041888482" duration="6479000" />
-      <workItem from="1751246362682" duration="4645000" />
-      <workItem from="1751252302695" duration="3215000" />
-      <workItem from="1751309712871" duration="1951000" />
-      <workItem from="1751326458306" duration="4848000" />
+      <updated>1751565081611</updated>
+      <workItem from="1751565087264" duration="1950000" />
     </task>
-    <task id="LOCAL-00001" summary="clone1">
-      <option name="closed" value="true" />
-      <created>1750954733184</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1750954733184</updated>
-    </task>
-    <task id="LOCAL-00002" summary="clone2">
-      <option name="closed" value="true" />
-      <created>1750954892835</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1750954892835</updated>
-    </task>
-    <task id="LOCAL-00003" summary="clone2">
-      <option name="closed" value="true" />
-      <created>1750957946424</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1750957946424</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Carrito ya esta listo solo falta la url para hacer las pruebas que no se como se saca eso pero ya lo averiguare, corre todo">
-      <option name="closed" value="true" />
-      <created>1751255053449</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1751255053449</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Carrito ya esta listo solo falta la url para hacer las pruebas que no se como se saca eso pero ya lo averiguare, corre todo">
-      <option name="closed" value="true" />
-      <created>1751255183220</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1751255183220</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Carrito ya esta listo solo falta la url">
-      <option name="closed" value="true" />
-      <created>1751255250932</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1751255250932</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Carrito ya esta listo solo falta la url">
-      <option name="closed" value="true" />
-      <created>1751255281118</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1751255281118</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Carrito ya esta listo solo falta la url">
-      <option name="closed" value="true" />
-      <created>1751255495545</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1751255495545</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Carrito ya esta listo solo falta la url">
-      <option name="closed" value="true" />
-      <created>1751310164848</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1751310164848</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Carrito ya esta listo solo falta la url">
-      <option name="closed" value="true" />
-      <created>1751394787241</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1751394787241</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Carrito ya esta listo solo falta la url">
-      <option name="closed" value="true" />
-      <created>1751394805074</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1751394805074</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Carrito ya esta listo solo falta la url">
-      <option name="closed" value="true" />
-      <created>1751395071676</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1751395071676</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Carrito ya esta listo solo falta la url">
-      <option name="closed" value="true" />
-      <created>1751395157845</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1751395157845</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Carrito ya esta listo solo falta la url">
-      <option name="closed" value="true" />
-      <created>1751395210972</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1751395210972</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="54795e7f-494e-4e5d-bdaa-f300eb0c1410" value="TOOL_WINDOW" />
-      </map>
-    </option>
-    <option name="TAB_STATES">
-      <map>
-        <entry key="54795e7f-494e-4e5d-bdaa-f300eb0c1410">
-          <value>
-            <State />
-          </value>
-        </entry>
-=======
-      <changelist id="e76a1cf0-1956-4da0-ad5e-3762d766e3e8" name="Changes" comment="" />
-      <created>1750954968364</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1750954968364</updated>
-    </task>
-    <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
->>>>>>> c802f375753df5b3668ccede258c0192d72d2bb8
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-<<<<<<< HEAD
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="clone1" />
-    <MESSAGE value="clone2" />
-    <MESSAGE value="Carrito ya esta listo solo falta la url para hacer las pruebas que no se como se saca eso pero ya lo averiguare, corre todo" />
-    <MESSAGE value="Carrito ya esta listo solo falta la url" />
-    <option name="LAST_COMMIT_MESSAGE" value="Carrito ya esta listo solo falta la url" />
-=======
->>>>>>> c802f375753df5b3668ccede258c0192d72d2bb8
   </component>
 </project>

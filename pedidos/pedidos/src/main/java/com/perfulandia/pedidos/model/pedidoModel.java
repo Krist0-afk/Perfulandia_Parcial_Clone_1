@@ -1,5 +1,6 @@
 package com.perfulandia.pedidos.model;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -12,14 +13,22 @@ import lombok.*;
 
 
 public class   pedidoModel {
-
+    @Schema(description = "ID autoguardado con IDENTITY", example ="1")
     @Id // indica que campo necesita una clave primaria
     @GeneratedValue(strategy = GenerationType.IDENTITY) // genera automaticamente el valor del campo, como una ID
     // se utilizan en conjunto con el @Id
     private int id;
+
+    @Schema(description = "Id del Usuario correspondiente al pedido", example ="21455979k")
     private String usuarioId;
+
+    @Schema(description = "Nombre del producto correspondiente al pedido", example ="Antonio Banderas")
     private String producto;
+
+    @Schema(description = "Descripcion del pedido", example ="Perfume cítrico")
     private String descripcion;
+
+    @Schema(description = "Estado del pedido", example ="En camino")
     private String estado;
 
 }
