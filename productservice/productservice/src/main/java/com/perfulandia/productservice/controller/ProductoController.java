@@ -36,6 +36,7 @@ public class ProductoController {
     @GetMapping("/listar/productos")
     public List<Producto> listar() {return service.listar();}
 
+
     //guardar
     @Operation(summary = "Agregar un producto", description = "Agrega un producto en la base de datos")
     @ApiResponses({
