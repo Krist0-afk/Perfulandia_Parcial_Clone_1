@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b99acec8-16ef-4d76-b5e3-0004232261df" name="Changes" comment="clone1">
-      <changelist_data name="™️》KRISTO《™" email="cr.valdebenitop@duocuc.cl" automatic="false" />
+    <list default="true" id="2a5fc8e4-d2c8-44e1-aa0c-22d9ea01ca26" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/com/perfulandia/pedidos/controller/pedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/com/perfulandia/pedidos/controller/pedidoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/com/perfulandia/pedidos/model/pedidoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/com/perfulandia/pedidos/model/pedidoModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,19 +24,20 @@
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
     "state": "OPEN",
-    "assignee": "Krist0-afk"
+    "assignee": "Rodrigoruiz12"
   }
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/Krist0-afk/Perfulandia_Parcial_Clone_2.git",
-    "accountId": "d556b034-9a60-4495-991f-76832b031ca9"
+    "url": "https://github.com/Krist0-afk/Perfulandia_Parcial_Clone_1.git",
+    "accountId": "4a2970c9-e0fa-4b92-b57f-5843222f2dbe"
   }
 }]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  "customColor": "",
+  "associatedIndex": 5
 }]]></component>
-  <component name="ProjectId" id="2z3KtTQrsjQPSxeL0X5svxTPFEl" />
+  <component name="ProjectId" id="2zNIPUl8IZux5ftDtn7PAokUhSw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,8 +47,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.PedidosApplication.executor": "Run",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Kristo/Documents/Universidad/DESARROLLO_FULLSTACK_I/Perfulandia_parcial_2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,7 +87,7 @@
     </configuration>
     <configuration name="PedidosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="pedidos" />
+      <module name="gamestore" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.pedidos.PedidosApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,7 +95,7 @@
     </configuration>
     <configuration name="ProductserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="productservice" />
+      <module name="gamestore (1)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.productservice.ProductserviceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,7 +103,7 @@
     </configuration>
     <configuration name="UsuarioserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="usuarioservice" />
+      <module name="gamestore (2)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.usuarioservice.UsuarioserviceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,30 +120,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b99acec8-16ef-4d76-b5e3-0004232261df" name="Changes" comment="" />
-      <created>1750954530851</created>
+      <changelist id="2a5fc8e4-d2c8-44e1-aa0c-22d9ea01ca26" name="Changes" comment="" />
+      <created>1751565081611</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1750954530851</updated>
-      <workItem from="1750954532017" duration="308000" />
+      <updated>1751565081611</updated>
+      <workItem from="1751565087264" duration="1950000" />
     </task>
-    <task id="LOCAL-00001" summary="clone1">
-      <option name="closed" value="true" />
-      <created>1750954733184</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1750954733184</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="clone2" />
-    <MESSAGE value="clone1" />
-    <option name="LAST_COMMIT_MESSAGE" value="clone1" />
   </component>
 </project>

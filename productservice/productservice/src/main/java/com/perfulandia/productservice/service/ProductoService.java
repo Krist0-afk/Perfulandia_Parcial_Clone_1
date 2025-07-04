@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-
 @Service
 public class ProductoService {
 
@@ -24,7 +23,7 @@ public class ProductoService {
         return repo.save(producto);
     }
     //Buscar
-    public Producto bucarPorId(long id){
+    public Producto buscar(long id){
         return repo.findById(id).orElse(null);
     }
     //Eliminar
