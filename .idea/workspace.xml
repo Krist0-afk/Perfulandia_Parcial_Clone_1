@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a5fc8e4-d2c8-44e1-aa0c-22d9ea01ca26" name="Changes" comment="Pruba lista">
+    <list default="true" id="2a5fc8e4-d2c8-44e1-aa0c-22d9ea01ca26" name="Changes" comment="Testing pedido, producto y usuario">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/test/java/com/perfulandia/pedidos/controller/PedidoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/test/java/com/perfulandia/pedidos/controller/PedidoControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/controller/ProductoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/controller/ProductoControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,11 @@
         <option name="argument" value="--follow-tags" />
         <option name="title" value="Current Branch" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="bk" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -52,6 +58,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CarritoserviceApplicationTests.executor": "Run",
     "JUnit.PedidoControllerTest.executor": "Run",
     "JUnit.PedidoServiceTest.executor": "Run",
     "JUnit.PerfulandiaControllerTest.executor": "Run",
@@ -59,15 +66,24 @@
     "JUnit.ProductoControllerTest.executor": "Run",
     "JUnit.ProductoControllerTest.testPost.executor": "Run",
     "JUnit.ProductoServiceTest.executor": "Run",
+    "JUnit.ProductserviceApplicationTests.executor": "Run",
     "JUnit.UsuarioControllerTest.executor": "Run",
     "JUnit.UsuarioServiceTest.executor": "Run",
     "JUnit.UsuarioserviceApplicationTests.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found": "Database connection parameters found",
     "Notification.DoNotAsk-DatabaseConfigFileWatcher.found": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.CarritoserviceApplication.executor": "Run",
     "Spring Boot.PedidosApplication.executor": "Run",
+    "Spring Boot.ProductserviceApplication.executor": "Run",
+    "Spring Boot.UsuarioserviceApplication (1).executor": "Run",
+    "Spring Boot.UsuarioserviceApplication.executor": "Run",
     "git-widget-placeholder": "bk",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/s-f-d/Desktop/Perfulandia_Parcial_Clone_1",
@@ -90,7 +106,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PedidoServiceTest">
+  <component name="RunManager" selected="JUnit.UsuarioControllerTest">
     <configuration name="PedidoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gamestore" />
       <extension name="coverage">
@@ -121,36 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gamestore (1)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.productservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.productservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.productservice.controller.ProductoControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gamestore (1)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.productservice.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.productservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.productservice.service.ProductoServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProductserviceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gamestore (1)" />
       <extension name="coverage">
@@ -161,6 +147,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.perfulandia.productservice" />
       <option name="MAIN_CLASS_NAME" value="com.perfulandia.productservice.ProductserviceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gamestore (2)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.usuarioservice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.usuarioservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.usuarioservice.controller.UsuarioControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,7 +185,7 @@
     </configuration>
     <configuration name="PedidosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="gamestore (1)" />
+      <module name="gamestore" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.pedidos.PedidosApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,15 +193,29 @@
     </configuration>
     <configuration name="ProductserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="gamestore (2)" />
+      <module name="gamestore (1)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.productservice.ProductserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioserviceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="gamestore (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.usuarioservice.UsuarioserviceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.usuarioservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="UsuarioserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="gamestore (3)" />
+      <module name="gamestore (2)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.usuarioservice.UsuarioserviceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UsuarioControllerTest" />
+        <item itemvalue="Spring Boot.UsuarioserviceApplication (1)" />
         <item itemvalue="JUnit.PedidoServiceTest" />
         <item itemvalue="JUnit.PedidoControllerTest" />
         <item itemvalue="JUnit.ProductserviceApplicationTests" />
-        <item itemvalue="JUnit.ProductoServiceTest" />
-        <item itemvalue="JUnit.ProductoControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +249,7 @@
       <workItem from="1751565087264" duration="1950000" />
       <workItem from="1751591543657" duration="874000" />
       <workItem from="1751593708387" duration="784000" />
-      <workItem from="1751608302977" duration="4401000" />
+      <workItem from="1751608302977" duration="5590000" />
     </task>
     <task id="LOCAL-00001" summary="Pruba lista">
       <option name="closed" value="true" />
@@ -252,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751593388608</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Testing pedido, producto y usuario">
+      <option name="closed" value="true" />
+      <created>1751613146461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751613146461</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +296,7 @@
     <MESSAGE value="Swagger y test pedidos" />
     <MESSAGE value="codigo bueno" />
     <MESSAGE value="Pruba lista" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pruba lista" />
+    <MESSAGE value="Testing pedido, producto y usuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing pedido, producto y usuario" />
   </component>
 </project>
