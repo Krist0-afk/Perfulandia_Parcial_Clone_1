@@ -11,7 +11,7 @@ public class Repartidor {
     @Id // indica que campo necesita una clave primaria
     @GeneratedValue(strategy = GenerationType.IDENTITY)// genera automaticamente el valor del campo, como una ID
     // se utilizan en conjunto con el @Id
-    private long id;
+    private Long id;
     private String nombre;
     private String apellido;
     private String rut;

@@ -16,9 +16,11 @@ public class Carrito {//
     @Schema(description = "ID autoguardado con IDENTITY", example ="1")
     @GeneratedValue(strategy = GenerationType.IDENTITY) // genera automaticamente el valor del campo, como una ID
     // se utilizan en conjunto con el @Id
-    private int id;
+
+    private Long id;
 
     @Schema(description = "Nombre del perfume", example ="Polo")
+
     private String nombre;
 
     @Schema(description = "Precio del Producto", example ="20000")
