@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2a5fc8e4-d2c8-44e1-aa0c-22d9ea01ca26" name="Changes" comment="Pruba lista">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/test/java/com/perfulandia/pedidos/controller/PedidoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/test/java/com/perfulandia/pedidos/controller/PedidoControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/controller/ProductoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/controller/ProductoControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +38,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Krist0-afk/Perfulandia_Parcial_Clone_1.git",
-    "accountId": "230fdf68-b73e-4be3-b92f-03eab41be014"
+    "accountId": "4a2970c9-e0fa-4b92-b57f-5843222f2dbe"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -49,12 +52,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.PedidoControllerTest.executor": "Run",
+    "JUnit.PedidoServiceTest.executor": "Run",
+    "JUnit.PerfulandiaControllerTest.executor": "Run",
     "JUnit.PerfulandiaControllerTest.testGetAll.executor": "Run",
+    "JUnit.ProductoControllerTest.executor": "Run",
+    "JUnit.ProductoControllerTest.testPost.executor": "Run",
+    "JUnit.ProductoServiceTest.executor": "Run",
+    "JUnit.UsuarioControllerTest.executor": "Run",
+    "JUnit.UsuarioServiceTest.executor": "Run",
+    "JUnit.UsuarioserviceApplicationTests.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found": "Database connection parameters found",
+    "Notification.DoNotAsk-DatabaseConfigFileWatcher.found": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.PedidosApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "bk",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/s-f-d/Desktop/Perfulandia_Parcial_Clone_1",
     "node.js.detected.package.eslint": "true",
@@ -76,19 +90,78 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PerfulandiaControllerTest.testGetAll">
-    <configuration name="PerfulandiaControllerTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
+  <component name="RunManager" selected="JUnit.PedidoServiceTest">
+    <configuration name="PedidoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gamestore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
+          <option name="PATTERN" value="com.perfulandia.pedidos.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.PerfulandiaControllerTest" />
-      <option name="METHOD_NAME" value="testGetAll" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.perfulandia.pedidos.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.pedidos.controller.PedidoControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PedidoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gamestore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.pedidos.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.pedidos.service" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.pedidos.service.PedidoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gamestore (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.productservice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.productservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.productservice.controller.ProductoControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gamestore (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.productservice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.productservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.productservice.service.ProductoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductserviceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gamestore (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.productservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.productservice" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.productservice.ProductserviceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,7 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PerfulandiaControllerTest.testGetAll" />
+        <item itemvalue="JUnit.PedidoServiceTest" />
+        <item itemvalue="JUnit.PedidoControllerTest" />
+        <item itemvalue="JUnit.ProductserviceApplicationTests" />
+        <item itemvalue="JUnit.ProductoServiceTest" />
+        <item itemvalue="JUnit.ProductoControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +234,7 @@
       <workItem from="1751565087264" duration="1950000" />
       <workItem from="1751591543657" duration="874000" />
       <workItem from="1751593708387" duration="784000" />
+      <workItem from="1751608302977" duration="4401000" />
     </task>
     <task id="LOCAL-00001" summary="Pruba lista">
       <option name="closed" value="true" />
@@ -179,6 +257,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Swagger y test pedidos" />

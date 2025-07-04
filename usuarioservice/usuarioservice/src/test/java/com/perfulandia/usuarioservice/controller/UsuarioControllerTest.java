@@ -21,7 +21,7 @@ import java.util.List;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 //Anotación que indica que solo probará el videjuegoController
-@WebMvcTest(UsuarioControllerTest.class)
+@WebMvcTest(UsuarioController.class)
 public class UsuarioControllerTest {
     //Crear hhtp pra poder realizar pruebas unitarias injectar
     @Autowired
@@ -40,7 +40,7 @@ public class UsuarioControllerTest {
     void testGetAll() throws Exception{
         when(service.listar()).thenReturn(List.of(new Usuario(1,"Pepe","pepe@duocuc.cl","estudiante")));
         //2.-Ejecutar una peticion get falsa
-        mockMvc.perform(get("/api/usuarios/mostrar/usuarios"))
+        mockMvc.perform(get("/api/usuarios/listar/usuario"))
                 //lo que esperamos en esa peticion
                 .andExpect(status().isOk())//codigo 200
                 //4.- verificacion que el primer elemento JSON sea el usuario Pepe
@@ -55,7 +55,7 @@ public class UsuarioControllerTest {
         //2 Simular con mockito el guardar este usuario y me devuelve uno con el id ya asignado
         when(service.guardar(any())).thenReturn(new Usuario(1,"Mario","mario@duocuc.cl","Usuario"));
         //3
-        mockMvc.perform(post("/api/usuarios")
+        mockMvc.perform(post("/api/usuarios/guardar/usuario")
                         .contentType("application/json")// indicar que el contenido es JSON
                         .content(mapper.writeValueAsString(usuario)))//convertimos el obejto JSON
                 .andExpect(status().isOk())

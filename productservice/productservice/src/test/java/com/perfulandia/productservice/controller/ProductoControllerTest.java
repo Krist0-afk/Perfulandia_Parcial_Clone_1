@@ -21,7 +21,7 @@ import java.util.List;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 //Anotación que indica que solo probará el videjuegoController
-@WebMvcTest(ProductoControllerTest.class)
+@WebMvcTest(ProductoController.class)
 public class ProductoControllerTest{
     //Crear hhtp pra poder realizar pruebas unitarias injectar
     @Autowired
@@ -40,11 +40,11 @@ public class ProductoControllerTest{
     void testGetAll() throws Exception{
         when(service.listar()).thenReturn(List.of(new Producto(1,"CR7",46900,15)));
         //2.-Ejecutar una peticion get falsa
-        mockMvc.perform(get("/api/productos/mostrar/productos"))
+        mockMvc.perform(get("/api/productos/listar/productos"))
                 //lo que esperamos en esa peticion
                 .andExpect(status().isOk())//codigo 200
                 //4.- verificacion que el primer elemento JSON sea el producto CR7
-                .andExpect(jsonPath("$[0].nombre").value("Pepe"));
+                .andExpect(jsonPath("$[0].nombre").value("CR7"));
     }
 
     //POST
@@ -53,12 +53,12 @@ public class ProductoControllerTest{
     void testPost() throws Exception {
         Producto producto = new Producto(1,"CR7",46900,15);
         //2 Simular con mockito el guardar este producto y me devuelve uno con el id ya asignado
-        when(service.guardar(any())).thenReturn(new Producto(1,"CR7",46900,15));
+        when(service.guardar((producto))).thenReturn(new Producto(1,"CR7",46900,15));
         //3
-        mockMvc.perform(post("/api/productos")
+        mockMvc.perform(post("/api/productos/guardar/producto")
                         .contentType("application/json")// indicar que el contenido es JSON
                         .content(mapper.writeValueAsString(producto)))//convertimos el obejto JSON
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.nombre").value("Mario"));
+                .andExpect(jsonPath("$.nombre").value("CR7"));
     }
 }
